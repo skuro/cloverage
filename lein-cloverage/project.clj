@@ -1,10 +1,10 @@
-(defproject lein-cloverage "1.1.2-SNAPSHOT"
-  :description "Lein plugin for cloverage"
-  :url "https://github.com/cloverage/cloverage"
+(defproject skuro/lein-cloverage "1.1.2"
+  :description "Lein plugin for cloverage fork that supports custom data readers. See https://github.com/cloverage/cloverage/pull/255"
+  :url "https://github.com/skuro/cloverage"
   :scm {:name "git"
-      :dir  ".."
-      :url  "https://www.github.com/cloverage/cloverage"
-      :tag  "HEAD"}
+        :dir  ".."
+        :url  "https://www.github.com/skuro/cloverage"
+        :tag  "HEAD"}
   :vcs :git
   :license {:name "Eclipse Public License - v 1.0"
             :url "http://www.eclipse.org/legal/epl-v10.html"
